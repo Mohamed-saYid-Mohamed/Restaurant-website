@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style id="dynamicStyles"></style>
+</head>
+<body>
+
+  <h1 id="dynamicH3">Heading one1</h1>
+  
+  <!-- Images with Animation -->
+  <div id="imageContainer">
+    <!-- Add 10 image elements here -->
+    <img src="msm.jpg" alt="Image 1">
+    <img src="msm.jpg" alt="Image 2">
+    <img src="msm.jpg" alt="Image 3">
+    <img src="moa.jpeg" alt="Image 4">
+    <img src="msm.jpg" alt="Image 5">
+    <img src= "msm.jpg" alt="Image 4">
+    <img src="msm.jpg"Image 4">
+    <img src="moa.jpeg" alt="Image 4">
+    <img src="msm.jpg" alt="Image 4">
+    <img src="nature.jpg".alt="Image 4">
+    <img src=".jpg" alt="Image 4">
+    <!-- ... Add more images ... -->
+  </div>
+
+  <!-- Videos with Controls -->
+  <div id="videoContainer">
+    <!-- Add 10 video elements here -->
+    <video controls width="300">
+      <source src="najmo nashaad ku siyey - Google Search - Google Chrome 2023-10-20 06-58-00.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video controls width="300">
+      <source src="najmo nashaad ku siyey - Google Search - Google Chrome 2023-10-20 06-58-00.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video controls width="300">
+        <source src="najmo nashaad ku siyey - Google Search - Google Chrome 2023-10-20 06-58-00.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video controls width="300">
+        <source src="najmo nashaad ku siyey - Google Search - Google Chrome 2023-10-20 06-58-00.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video controls width="300">
+        <source src="najmo nashaad ku siyey - Google Search - Google Chrome 2023-10-20 06-58-00.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video controls width="300">
+        <source src="najmo nashaad ku siyey - Google Search - Google Chrome 2023-10-20 06-58-00.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video controls width="300">
+        <source src="c:\Users\lenoivo\Videos\KU SAABSAN DIINTEENA SUUBAN\4abda253491423daa299f4d8c0fbd420.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video controls width="300">
+        <source src="najmo nashaad ku siyey - Google Search - Google Chrome 2023-10-20 06-58-00.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video controls width="300">
+        <source src="najmo nashaad ku siyey - Google Search - Google Chrome 2023-10-20 06-58-00.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video controls width="300">
+        <source src="najmo nashaad ku siyey - Google Search - Google Chrome 2023-10-20 06-58-00.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    <!-- ... Add more videos ... -->
+  </div>
+
+  <script>
+    // Apply styles to H1 to H6 dynamically
+    const dynamicStyles = `
+      #dynamicH1 {
+        color: blue;
+        font-size: 2em;
+      }
+
+      #dynamicH2 {
+        color: green;
+        font-size: 1.8em;
+      }
+
+      #dynamicH3 {
+        color: red;
+        font-size: 1.6em;
+      }
+
+      #dynamicH4 {
+        color: purple;
+        font-size: 1.4em;
+      }
+
+      #dynamicH5 {
+        color: orange;
+        font-size: 1.2em;
+      }
+
+      #dynamicH6 {
+        color: brown;
+        font-size: 1em;
+      }
+
+      #imageContainer img {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+        S      }
+
+      @keyframes rotate {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+
+      #videoContainer video {
+        margin: 10px;
+      }
+    `;
+
+    // Apply styles to the head of the document
+    document.getElementById('dynamicStyles').innerText = dynamicStyles;
+  </script>
+
+</body>
+</html>
